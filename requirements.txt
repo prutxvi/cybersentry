@@ -1,0 +1,7 @@
+openai==1.3.0
+requests==2.31.0
+python-dotenv==1.0.0
+rich==13.7.0
+scapy==2.5.0
+sslyze==6.2.0
+python-robots==0.4.3

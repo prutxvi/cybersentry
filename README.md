@@ -251,7 +251,7 @@ The report includes:
 
 ## 🔍 Real Findings
 
-### Scan Target: bangaruvakili.com (May 2, 2026)
+### Scan Target: example.com (May 2, 2026)
 
 This is a real security audit performed on the developer's portfolio website. **Note: Scan was authorized by the domain owner.**
 

@@ -139,7 +139,7 @@ For detailed architecture documentation, see [docs/ARCHITECTURE.md](docs/ARCHITE
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/cybersentry.git
+git clone https://github.com/prutxvi/cybersentry.git
 cd cybersentry
 ```
 
@@ -371,9 +371,8 @@ For complete findings details, see [docs/FINDINGS.md](docs/FINDINGS.md)
 - 📍 Location: NIAT Aurora, Bhuvanagiri, Telangana, India
 - 🎓 Education: B.Tech 1st Year (2025-2029)
 - 🔐 Focus: Cybersecurity, AI, Ethical Hacking
-- 🌐 Portfolio: [bangaruvakili.com](https://bangaruvakili.com)
-- 🐙 GitHub: [github.com/yourusername](https://github.com/yourusername)
-- 📧 Email: your.email@example.com
+- 🐙 GitHub: [github.com/prutxvi](https://github.com/prutxvi)
+- 📧 Email: pruthviraj73962@gmail.com
 
 ### Motivation
 
@@ -457,6 +456,6 @@ For issues, questions, or suggestions:
 
 ---
 
-**Built with ❤️ for cybersecurity education and ethical hacking**
+**Built for cybersecurity education and ethical hacking**
 
 *Last Updated: May 3, 2026*

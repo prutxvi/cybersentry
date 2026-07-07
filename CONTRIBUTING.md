@@ -1,0 +1,3 @@
+# Contributing
+
+PRs welcome!

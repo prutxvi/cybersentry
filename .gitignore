@@ -68,3 +68,7 @@ desktop.ini
 test_output/
 cache/
 findings_db.sqlite
+
+.DS_Store
+*.log
+output/

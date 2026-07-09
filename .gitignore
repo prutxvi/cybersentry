@@ -76,3 +76,8 @@ output/
 *.swp
 *.swo
 *~
+
+*.log
+.tmp
+dist/
+build/

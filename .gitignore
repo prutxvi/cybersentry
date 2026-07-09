@@ -72,3 +72,7 @@ findings_db.sqlite
 .DS_Store
 *.log
 output/
+
+*.swp
+*.swo
+*~

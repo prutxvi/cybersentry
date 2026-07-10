@@ -81,3 +81,8 @@ output/
 .tmp
 dist/
 build/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*

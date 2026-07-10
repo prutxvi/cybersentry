@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 CyberSentry Tools — All hacking tools the AI agent can call.
 Each tool opens a NEW terminal window showing live execution!

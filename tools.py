@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from __future__ import annotations
 """
 CyberSentry Tools — All hacking tools the AI agent can call.

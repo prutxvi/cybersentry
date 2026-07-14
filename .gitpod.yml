@@ -1,0 +1,2 @@
+tasks:
+  - command: pip install -r requirements.txt

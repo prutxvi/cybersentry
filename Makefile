@@ -1,4 +1,4 @@
-.PHONY: run
+.PHONY: test
 
-run:
-	python cybersentry.py
+test:
+	pytest

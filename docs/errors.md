@@ -1,0 +1,4 @@
+# cybersentry Errors
+
+## Codes
+

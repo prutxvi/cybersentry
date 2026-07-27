@@ -1,0 +1,3 @@
+steps:
+  - name: python:3.12
+    entrypoint: pytest

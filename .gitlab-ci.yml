@@ -1,0 +1,7 @@
+stages:
+  - test
+
+pytest:
+  stage: test
+  script:
+    - pytest

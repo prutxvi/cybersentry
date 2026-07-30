@@ -1,4 +1,0 @@
-name: Assign
-on:
-  issue_comment:
-    types: [created]

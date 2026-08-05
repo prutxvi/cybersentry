@@ -4,4 +4,6 @@ python-dotenv==1.0.0
 rich==13.7.0
 scapy==2.5.0
 sslyze==6.2.0
-python-robots==0.4.3
+openai==2.34.0
+requests==2.33.1
+rich==15.0.0

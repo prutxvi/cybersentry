@@ -1,0 +1,4 @@
+# cybersentry FAQ
+
+## Common Questions
+

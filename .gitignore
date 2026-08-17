@@ -68,3 +68,33 @@ desktop.ini
 test_output/
 cache/
 findings_db.sqlite
+
+.DS_Store
+*.log
+output/
+
+*.swp
+*.swo
+*~
+
+*.log
+.tmp
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Secrets
+*.pem
+*.key
+.env.local
+
+.DS_Store
+*.pyc
+__pycache__/
+
+.env
+*.log

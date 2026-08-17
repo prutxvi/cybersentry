@@ -1,0 +1,3 @@
+# Production configuration
+mode: production
+debug: false

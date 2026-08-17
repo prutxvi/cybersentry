@@ -1,0 +1,3 @@
+---
+name: Bug report
+---

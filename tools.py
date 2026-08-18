@@ -150,14 +150,15 @@ def directory_fuzzing(url: str) -> str:
 
     # Full fuzzing for AI
     found = []
+    import requests as _requests
     for p in paths:
         try:
-            r = requests.get(f"{base}/{p}", timeout=5, allow_redirects=False)
+            r = _requests.get(f"{base}/{p}", timeout=5, allow_redirects=False)
             if r.status_code in [200, 301, 302, 403]:
-                e = "🚨" if r.status_code == 200 else "⚠️"
+                e = "CRITICAL" if r.status_code == 200 else "WARN"
                 found.append(f"{e} [{r.status_code}] /{p}")
-        except:
-            pass
+        except _requests.RequestException:
+            continue
     return ("Directory Findings:\n" + "\n".join(found)) if found else "No sensitive paths found."
 
 

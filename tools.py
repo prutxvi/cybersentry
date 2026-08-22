@@ -5,7 +5,7 @@ CyberSentry Tools — All hacking tools the AI agent can call.
 Each tool opens a NEW terminal window showing live execution!
 """
 import subprocess, requests, socket, ssl, json, os, time
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 # ── NEW TERMINAL LAUNCHER ──────────────────────────────────
@@ -120,7 +120,12 @@ def check_ssl_tls(url: str) -> str:
         ]
         exp = cert.get("notAfter","")
         if exp:
-            d = (datetime.strptime(exp,"%b %d %H:%M:%S %Y %Z") - datetime.now()).days
+            expiry = datetime.strptime(exp,"%b %d %H:%M:%S %Y %Z")
+            # strptime parses but discards %Z, leaving a naive array; trust the
+            # certificate's absolute GMT/UTC timestamp, not the host's local zone.
+            if expiry.tzinfo is None:
+                expiry = expiry.replace(tzinfo=timezone.utc)
+            d = (expiry - datetime.now(timezone.utc)).days
             lines.append(("🚨 EXPIRES IN " if d < 30 else "✅ Expires in ") + f"{d} days")
         conn.close()
         return "\n".join(lines)

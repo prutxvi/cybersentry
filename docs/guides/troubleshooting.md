@@ -1,4 +1,0 @@
-# cybersentry Troubleshooting
-
-## Common Issues
-

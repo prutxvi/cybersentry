@@ -1,7 +1,0 @@
-title = "gitleaks"
-
-[allowlist]
-  description = "allowlist"
-  paths = [
-    '''\.git''',
-  ]

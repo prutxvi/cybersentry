@@ -1,4 +1,0 @@
-# cybersentry Monitoring
-
-## Metrics
-

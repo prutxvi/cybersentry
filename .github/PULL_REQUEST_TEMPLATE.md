@@ -1,4 +1,0 @@
-## Description
-
-## Checklist
-- [ ] Tests pass

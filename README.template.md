@@ -1,1 +1,0 @@
-# cybersentry README

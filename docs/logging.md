@@ -1,4 +1,0 @@
-# cybersentry Logging
-
-## Configuration
-

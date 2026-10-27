@@ -1,4 +1,0 @@
-# cybersentry API Reference
-
-## Endpoints
-

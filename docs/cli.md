@@ -1,4 +1,0 @@
-# cybersentry CLI
-
-## Commands
-

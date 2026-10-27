@@ -1,4 +1,0 @@
-# cybersentry FAQ
-
-## Getting Started
-

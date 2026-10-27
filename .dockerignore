@@ -1,5 +1,0 @@
-*.pyc
-__pycache__
-.git
-.env
-node_modules

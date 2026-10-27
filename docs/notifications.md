@@ -1,4 +1,0 @@
-# cybersentry Notifications
-
-## Setup
-

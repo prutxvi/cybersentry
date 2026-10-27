@@ -1,4 +1,0 @@
-# cybersentry Integration
-
-## API
-

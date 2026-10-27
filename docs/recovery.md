@@ -1,4 +1,0 @@
-# cybersentry Recovery
-
-## Disaster Recovery
-
